@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "961628549275",
+    "project_id": "mealerapp-a6e86",
+    "storage_bucket": "mealerapp-a6e86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961628549275:android:72bbe500cbbb91fece963e",
+        "android_client_info": {
+          "package_name": "com.example.myloginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961628549275-li5idop7dhi2qa4heuf4erauqb0q106c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYiug-CVRyD1califx81YeWU467YtLs88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961628549275-li5idop7dhi2qa4heuf4erauqb0q106c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
