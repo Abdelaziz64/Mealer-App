@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".content1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="658dp"
+        android:text="Orders"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:id="@+id/listViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="577dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/teal_200"
+        android:cacheColorHint="@color/white"
+
+        android:orientation="vertical"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/white"></ListView>
+
+    <Button
+        android:id="@+id/logout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Go back" />
+
+</RelativeLayout>

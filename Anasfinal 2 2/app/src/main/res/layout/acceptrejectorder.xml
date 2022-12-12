@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonUpdateProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="acceptorder"
+            android:text="Reject order" />
+
+        <Button
+            android:id="@+id/buttonDeleteProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:onClick="acceptorder"
+            android:text="Accept order" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="ichrak71"
+        android:text="Cancel" />
+
+
+</LinearLayout>
